@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Quiz-App</title>
+    <link rel="stylesheet" href="./style.css" />
+    \
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div id="main" class="main">
+      <div id="box">
+        <h2 id="quesBox">Q-1: Dummy question ?</h2>
+        <div class="row">
+          <input id="Option1" value="a" type="radio" class="option" />
+          <label for="Option1"> a. Option1</label>
+        </div>
+        <div class="row">
+          <input id="Option2" value="b" type="radio" class="option" />
+          <label for="Option2"> b. Option2</label>
+        </div>
+        <div class="row">
+          <input id="Option3" value="c" type="radio" class="option" />
+          <label for="Option3"> c. Option3</label>
+        </div>
+        <div class="row">
+          <input id="Option4" value="d" type="radio" class="option" />
+          <label for="Option4"> d. Option4</label>
+        </div>
+        <button onclick="submitQuiz()" class="btn">Submit</button>
+      </div>
+    </div>
+    <button
+      style="
+        margin-top: 6px;
+        padding: 6px;
+        border-radius: 4px;
+        border: none;
+        color: aliceblue;
+        background: black;
+      "
+      class=""
+      onclick="restart()"
+    >
+      restart
+    </button>
+  </body>
+</html>
